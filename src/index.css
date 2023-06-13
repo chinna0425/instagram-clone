@@ -1,13 +1,132 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: white;
+  background-size: cover;
+  min-height: 90hv;
+  padding: 5%;
+  background-position: center;
+  position: relative;
+}
+form{
+  width: 300px;
+  padding: 100px;
+  background: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+form{
+  background-size: cover;
+  min-height: 90hv;
+  padding: 5%;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="Login"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button[type="Login"] {
+  background-color: #0395F6;
+  color: white;
+  cursor: pointer;
+  padding: 9px;
+  width: 100%;
+  border: 1px solid #0395F6;
+  border-radius: 5px;
+  font-weight: bold;
+}
+img{
+  background-position: 0px -52px;
+  background-size: auto;
+  width: 175px;
+  height: 51px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.logo{
+  width:270px;
+  height:51px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.login_ordiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.login_dividor{
+  width: 100px;
+  height: 0px;
+  margin-top: 16px;
+  border: 0.5px solid #8E8E8E;
+}
+.login_or{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #8E8E8E;
+}
+.facebook{
+  width:100px;
+  color:#395185;
+  padding: 1px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.forgot{
+  color: rgba((--fe0,0,55,107)1);
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: medium;
+  margin-bottom: 15px;
+}
+.forgot a {
+  text-decoration: none;
+}
+.box a {
+  text-decoration: none;
+}
+.box {
+  width: 295px;
+  margin-top: 10px;
+  flex-basis: 45%;
+  padding: 20px;
+  background: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.navbar__barContent {
+  height: 54px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+.navbar_logo{
+  margin-top: 10px;
+}
+.navbar__img {
+  margin:15px 10px;
+}
+.navbar__searchBar {
+  height: 30px;
+  width: 215px;
+  margin-top: 10px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: #fafafa;
+  border-radius: 5px;
 }
